@@ -1,0 +1,24 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "Start":"node ."
+  },
+  "keywords": [],
+  "author": "Oscar Aranda Salas",
+  "license": "ISC",
+  "dependencies": {
+    "cords": "^1.0.4",
+    "express": "^4.17.1",
+    "express-load": "^1.1.16",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "promise-mysql": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
